@@ -1,0 +1,90 @@
+/* dashboard.css */
+
+/* General styling for the container */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray for better contrast */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Jumbotron styling */
+.jumbotron {
+  background: linear-gradient(135deg, #007bff, #00cccc); /* Cyan and blue gradient */
+  color: white;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Heading styles */
+.jumbotron h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.jumbotron p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Logout text styling */
+.logout-text {
+  font-size: 1rem;
+  color: #00cccc; /* Cyan for emphasis */
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.logout-text:hover {
+  color: #007bff; /* Hover effect with a transition back to blue */
+}
+
+/* Button styling */
+button {
+  background-color: #00cccc; /* Cyan button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #007bff; /* Hover effect with blue */
+  transform: translateY(-3px);
+}
+
+/* Welcome text and email styling */
+p {
+  font-size: 1rem;
+  color: #343a40;
+  margin: 10px 0;
+}
+
+/* Highlight user data */
+p span {
+  font-weight: bold;
+  color: #00cccc; /* Cyan to draw attention to key information */
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .jumbotron h1 {
+    font-size: 2rem;
+  }
+
+  .jumbotron p {
+    font-size: 1rem;
+  }
+
+  button {
+    width: 100%;
+    padding: 15px;
+  }
+}
